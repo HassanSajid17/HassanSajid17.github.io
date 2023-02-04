@@ -1,21 +1,67 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="style.css" rel="stylesheet" </>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="applyforlearningtocode.html">Learn to Code</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <body>
-    </body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Oxygen&family=Oxygen+Mono&family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+    <title>Hassan's Portfolio</title>
+</head>
+<body>
+    
+<!--header-->
+<nav id="navigation"> 
+  <ul>
+    <li> <h1> <a href="index.html"> <span class="fa-solid fa-kaaba" aria-hidden="true"></span> Hassan Sajid</a></h1></li>
+    <li><a href="#projects">
+      Projects </a> </li>
+    <li> <a href="about.html"> About </a> </li>
+    <li> <a href="#contact-section"> Contact </a> </li>
+    <li> <a href="https://www.linkedin.com" target="_blank"> <span class="fab fa-linkedin" aria-hidden="true"></span> <span class="sr-only"> LinkedIn</span></a> </li> <!--change the i element name that was pasted from font-awesome to a span element - just do it-->  <!-- the aria-hidden thing hides this icon from screen readers--> <!-- span around linked in again with the class"sr-only" means screen reader only, which helps only screen readers read it--> <!--ARIA (Accessible Rich Internet Applications) defines a way to make Web content and Web applications more accessible to people with disabilities. The hidden attribute is new in HTML5 and tells browsers not to display the element. The aria-hidden property tells screen-readers if they should ignore the element.-->
+    <li> <a href="https://github.com/HassanSajid17/hassansajid17.github.io"> <span class="fab fa-github-square" aria-hidden="true"></span> <span class="sr-only">Github</span> </a> </li>
+    <li> <a href="https://hassansajid17.github.io/" class="button"> Resume </a> </li> <!-- to creat a link that looks like a button, we first start with defining the a tag with a class called button-->
+  </ul>
+</nav>
 
-    </html>
+<!--introductory text-->
+<section id="intro"> <p class="name">Hi, my name is <span>Hassan Sajid.</span> </p>
+
+  <h2>I teach science.</h2>
+  
+  <p>I'm an educator specializing in HTML and CSS.<p>
+  
+  <p>Currently, I'm completing the Front End Masters Bootcamp and enhancing my education <a href="https://www.google.ca">tech</a> career.</p>
+  </section>
+
+<div class="gradient"></div>
+<!--contact area-->
+<div class="section-plum">
+<section id="contact">
+  <h2>Contact me</h2>
+  <p> I'm always interested in hearing about how I can help you make the Muslim experience online better through websites.</p>
+  <p><a class="button" href="mailto:has@gmail.com">Email me</a></p></section>
+</div>
+
+<!--footer-->
+<div class="gradient"></div>
+<footer>
+
+  <h2>Hassan Sajid &middot; Educator</h2>
+  <ul id="footerlist">
+    <li><a href="https://ca.linkedin.com/"><span class="fa-brands fa-linkedin" aria-hidden"true"></span><span class="sr-only">LinkedIn</span></a></li>
+    <li><a href="https://github.com/HassanSajid17/hassansajid17.github.io"><span class="fa-brands fa-github" aria-hidden"true"></span> <span class="sr-only">GitHub</span></a></li>
+    <li><a href="https://gmail.com/"><span class="fa-solid fa-envelope" aria-hidden"true"></span><span class="sr-only">LinkedIn</span></a></li></ul>
+  
+  <p><small> &copy; 2022 Hassan Sajid. All rights reserved. </small><p>
+  
+</footer>
+</body>
+</body>
+</html>
